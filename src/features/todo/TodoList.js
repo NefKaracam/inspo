@@ -11,6 +11,7 @@ const useStyles = makeStyles({
     backgroundColor: "rgba(255, 255, 255, 0.45)",
     borderRadius: "10px",
     width: "65%",
+    minWidth: "65%",
     margin: " 0 auto",
     display: "flex",
     justifyContent: "center",

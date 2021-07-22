@@ -10,10 +10,10 @@ const useStyles = makeStyles((theme) => ({
   inputText: {
     color: "#DFDFDF",
     padding: "30px 0 0 30px",
-    fontSize: "calc(1em + 1vw)",
+    fontSize: "1.7em",
     fontWeight: "700",
     letterSpacing: "-1px",
-    lineHeight: "46px",
+    lineHeight: "36px",
     textShadow: "2px 2px 4px rgba(0,0,0,0.59)",
     [theme.breakpoints.down("sm")]: {},
   },
@@ -22,6 +22,7 @@ const useStyles = makeStyles((theme) => ({
     marginBottom: "40px",
     borderRadius: "10px",
     width: "65%",
+    minWidth: "65%",
     margin: "0 auto",
   },
 }));

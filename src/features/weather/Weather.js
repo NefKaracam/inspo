@@ -16,11 +16,18 @@ const useStyles = makeStyles((theme) => ({
     textShadow: "0 2px 4px rgb(71 97 206 / 36%)",
     fontWeight: "lighter",
     margin: "30px 60px 50px 0",
+    [theme.breakpoints.down("sm")]: {
+      justifyContent: "center",
+      alignItems: "center",
+    },
   },
   weatherContainer: {
     display: "flex",
     marginLeft: "140px",
     opacity: "0.75",
+    [theme.breakpoints.down("sm")]: {
+      marginLeft: "50px",
+    },
   },
   icon: {
     margin: "0",

@@ -10,7 +10,7 @@ const useStyles = makeStyles((theme) => ({
     fontFamily: "Georgia, serif",
     lineHeight: "1.5em",
     letterSpacing: "1px",
-    fontSize: "1.2em",
+    fontSize: "1.3em",
     textAlign: "center",
     fontWeight: "lighter",
     color: "#DFDFDF",

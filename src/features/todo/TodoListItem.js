@@ -28,7 +28,7 @@ const useStyles = makeStyles((theme) => ({
     alignItems: "center",
     margin: "20px 0 20px 20px",
     borderRadius: "10px",
-    fontSize: "20px",
+    fontSize: "1.2em",
     border: "1px solid rgba(255, 255, 255, 0.18)",
     width: "fit-content",
     [theme.breakpoints.down("sm")]: {

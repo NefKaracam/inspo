@@ -36,7 +36,7 @@ const useStyles = makeStyles({
     right: "0",
     zIndex: "2",
     paddingLeft: "20px",
-    paddingight: "20px",
+    paddingright: "20px",
     overflowY: "scroll",
     backdropFilter: "brightness(60%) blur(5px)",
   },

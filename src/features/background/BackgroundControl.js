@@ -26,13 +26,15 @@ const useStyles = makeStyles((theme) => ({
     left: "70px",
     [theme.breakpoints.down("sm")]: {
       fontSize: "30px",
+      left: "40px",
     },
   },
   rightArrow: {
     fontSize: "70px",
     right: "70px",
     [theme.breakpoints.down("sm")]: {
-      fontSize: "60px",
+      fontSize: "50px",
+      right: "20px",
     },
   },
 }));
