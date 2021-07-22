@@ -1,56 +1,29 @@
-import React from 'react';
-import logo from './logo.svg';
-import { Counter } from './features/counter/Counter';
-import './App.css';
+import React from "react";
+import { SnackbarProvider } from "notistack";
+import { Box } from "@material-ui/core";
+
+import styles from "./App.module.css";
+import Background from "./features/background/Background";
+import TodoInput from "./features/todo/TodoInput";
+import TodoList from "./features/todo/TodoList";
+import Weather from "./features/weather/Weather";
+import Quote from "./features/quote/Quote";
+import Footer from "./features/Footer";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <Counter />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <span>
-          <span>Learn </span>
-          <a
-            className="App-link"
-            href="https://reactjs.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            React
-          </a>
-          <span>, </span>
-          <a
-            className="App-link"
-            href="https://redux.js.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Redux
-          </a>
-          <span>, </span>
-          <a
-            className="App-link"
-            href="https://redux-toolkit.js.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Redux Toolkit
-          </a>
-          ,<span> and </span>
-          <a
-            className="App-link"
-            href="https://react-redux.js.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            React Redux
-          </a>
-        </span>
-      </header>
+    <div className={styles.App}>
+      <SnackbarProvider maxSnack={3}>
+        <Background>
+          <Box position="relative" paddingBottom="30px">
+            <Weather />
+            <TodoInput />
+            <TodoList />
+            <Quote />
+          </Box>
+          <Footer />
+        </Background>
+      </SnackbarProvider>
     </div>
   );
 }
