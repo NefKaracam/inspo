@@ -3,9 +3,9 @@
 
 
 
-
 |![Screenshot wide](ss.jpg)|![Screenshot small](ss-small.jpg)|
 |:-:|:-:|
+
 
 ## Features
 - Check the current weather
@@ -16,6 +16,7 @@
 - Delete goals
 - Mark goals as complete
 - Mark completed goals as a new goal
+- After mark a goal as completed, a confetti animation appears
 
 
 ## Technologies used
