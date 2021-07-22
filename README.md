@@ -1,6 +1,9 @@
 # INSPO
 ### A simple to-do list with current weather info, a daily quote, and inspirational background images.
 
+<img src="ss.jpg" />
+<img src="ss-small.jpg" />
+
 ## Features
 - Check the current weather
 - Show inspirational images
