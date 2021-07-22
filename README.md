@@ -1,5 +1,5 @@
 # INSPO <img src="./public/favicon.svg" alt="logo" width="25" height="25">
-### A simple to-do list with current weather info, a daily quote, and inspirational background images.
+### A simple to-do list application with current weather info, a daily quote, and inspirational background images.
 
 
 
