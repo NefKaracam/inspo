@@ -1,8 +1,11 @@
-# INSPO
+# INSPO <img src="./public/favicon.svg" alt="logo" width="25" height="25">
 ### A simple to-do list with current weather info, a daily quote, and inspirational background images.
 
-<img src="ss.jpg" />
-<img src="ss-small.jpg" />
+
+
+
+|![Screenshot wide](ss.jpg)|![Screenshot small](ss-small.jpg)|
+|:-:|:-:|
 
 ## Features
 - Check the current weather
